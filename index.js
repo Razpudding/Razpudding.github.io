@@ -1,3 +1,4 @@
+console.log("script loaded")
 //Set up variables
 {
   const app = {
