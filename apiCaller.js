@@ -1,5 +1,5 @@
 //https://api.brewerydb.com/v2/search?q=Goosinator&type=beer&key=800c5616f98b7338e8313f747666c975
-fetch('http://api.brewerydb.com/v2/search?q=Goosinator&type=beer&key=800c5616f98b7338e8313f747666c975').then(function(response) {
+fetch('https://api.brewerydb.com/v2/search?q=Goosinator&type=beer&key=800c5616f98b7338e8313f747666c975').then(function(response) {
         console.log(response)
       });
 
