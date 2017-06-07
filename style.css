@@ -1,4 +1,12 @@
 body {
 	background-color: black;
+	margin: auto;
+	width: 50%;
+
 }
 
+h1 {
+	padding-top: 25%;
+	font-family: 'El Messiri', sans-serif;
+	color: silver;
+}
