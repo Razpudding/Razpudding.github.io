@@ -1,7 +1,5 @@
 body {
 	background-color: black;
-
-
 }
 
 h1 {
@@ -10,6 +8,8 @@ h1 {
 	font-family: lucida console;
 	text-align: center;
 	color: silver;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 #map-canvas{
@@ -17,4 +17,5 @@ h1 {
   height: 500px;
   width: 900px;
   border: 3px solid silver;
+  border-style: dashed;
 }
