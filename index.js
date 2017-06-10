@@ -12,7 +12,7 @@ function initMap(){
   console.log("loading map");
   if (document.getElementById('map-canvas')){
       // Coordinates to center the map
-      var myLatlng = new google.maps.LatLng(53.3984788,5.2774134);
+      var myLatlng = new google.maps.LatLng(53.4076104,5.3069776,2471);
       // Other options for the map, pretty much selfexplanatory
       var mapOptions = {
           zoom: 13,
