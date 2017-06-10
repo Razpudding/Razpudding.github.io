@@ -1,5 +1,5 @@
 //  53.41235, 5.3241
-// if HTML DOM Element that contains the map is found...
+// nieuw: 53.3984788,5.2774134
 //Adres: Badweg Formerum 4, 8894 Formerum, Netherlands
 //Improve geolocation -> https://stackoverflow.com/questions/9142833/show-my-location-on-google-maps-api-v3
 //Add address on click
@@ -12,7 +12,7 @@ function initMap(){
   console.log("loading map");
   if (document.getElementById('map-canvas')){
       // Coordinates to center the map
-      var myLatlng = new google.maps.LatLng(53.41235, 5.3241);
+      var myLatlng = new google.maps.LatLng(53.3984788,5.2774134);
       // Other options for the map, pretty much selfexplanatory
       var mapOptions = {
           zoom: 13,
@@ -27,7 +27,7 @@ function initMap(){
       };
 
       // Attach a map to the DOM Element, with the defined settings
-      var location = {lat:53.41235, lng: 5.3241};
+      var location = myLatlng//{lat:53.41235, lng: 5.3241};
       var map = new google.maps.Map(document.getElementById("map-canvas"), mapOptions);
       var infoWindow = new google.maps.InfoWindow;
       var raveIcon = { 
