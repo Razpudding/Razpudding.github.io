@@ -2,7 +2,7 @@ body {
 	background-color: black;
 }
 
-h1 {
+h1, h2, h3 {
 	margin: auto;
 	width: 50%;
 	font-family: lucida console;
@@ -10,6 +10,15 @@ h1 {
 	color: silver;
 	padding-top: .5em;
 	padding-bottom: .5em;
+}
+
+h2 {
+	font-size: 1em;
+}
+
+h3 {
+	font-size: .8em;
+	font-style: italic;
 }
 
 #map-canvas{
@@ -22,4 +31,10 @@ h1 {
 
 a:link, a:visited {
     color: silver;
+}
+
+img {
+	display: inline;
+	width: 1.5em;
+	height: 1.5em;
 }
