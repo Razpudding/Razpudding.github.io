@@ -21,14 +21,14 @@ h3 {
 	font-style: italic;
 }
 
-#map-canvas{
+/*#map-canvas{
   margin: auto;
   height: 500px;
   width: 900px;
   border: 3px solid silver;
   border-style: dashed;
 }
-
+*/
 a:link, a:visited {
     color: silver;
 }
