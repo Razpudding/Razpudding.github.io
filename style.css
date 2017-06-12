@@ -4,12 +4,15 @@ body {
 
 h1, h2, h3 {
 	margin: auto;
-	width: 50%;
+	width: 75%;
 	font-family: lucida console;
 	text-align: center;
 	color: silver;
-	padding-top: .5em;
 	padding-bottom: .5em;
+}
+
+h1:first-of-type{
+	padding-top: 3em;
 }
 
 h2 {
